@@ -9,12 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBAction func didTapOnCreateFurnitureForBedroom(_ sender: Any) {
+        _ = BedroomFactory().getSofa()
+        _ = BedroomFactory().getChair()
+        _ = BedroomFactory().getTable()
     }
-
-
+    
+    @IBAction func didTapOnCreateFurnitureForKitchen(_ sender: Any) {
+        _ = KitchenFactory().getSofa()
+        _ = KitchenFactory().getChair()
+        _ = KitchenFactory().getTable()
+    }
 }
 

@@ -12,6 +12,18 @@
 		0B63D757227B28F200645E26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B63D755227B28F200645E26 /* Main.storyboard */; };
 		0B63D759227B28F400645E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B63D758227B28F400645E26 /* Assets.xcassets */; };
 		0B63D75C227B28F400645E26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B63D75A227B28F400645E26 /* LaunchScreen.storyboard */; };
+		0B63D765227B2B5500645E26 /* СhairProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B63D764227B2B5500645E26 /* СhairProtocol.swift */; };
+		0B63D767227B2B8200645E26 /* KitchenChair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B63D766227B2B8200645E26 /* KitchenChair.swift */; };
+		0B63D76B227B2C4100645E26 /* BedroomChair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B63D76A227B2C4100645E26 /* BedroomChair.swift */; };
+		0B63D76E227B2CA600645E26 /* SofaProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B63D76D227B2CA600645E26 /* SofaProtocol.swift */; };
+		0B63D770227B2CDA00645E26 /* BedroomSofa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B63D76F227B2CDA00645E26 /* BedroomSofa.swift */; };
+		0B63D772227B2D1300645E26 /* KitchenSofa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B63D771227B2D1300645E26 /* KitchenSofa.swift */; };
+		0B63D775227B2D5400645E26 /* TableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B63D774227B2D5400645E26 /* TableProtocol.swift */; };
+		0B63D777227B2D8300645E26 /* BedroomTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B63D776227B2D8300645E26 /* BedroomTable.swift */; };
+		0B63D779227B2DBC00645E26 /* KitchenTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B63D778227B2DBC00645E26 /* KitchenTable.swift */; };
+		0B63D77C227B2E5100645E26 /* AbstractFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B63D77B227B2E5100645E26 /* AbstractFactoryProtocol.swift */; };
+		0B63D77E227B2E9400645E26 /* BedroomFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B63D77D227B2E9400645E26 /* BedroomFactory.swift */; };
+		0B63D780227B2F2A00645E26 /* KitchenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B63D77F227B2F2A00645E26 /* KitchenFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,18 @@
 		0B63D758227B28F400645E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B63D75B227B28F400645E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B63D75D227B28F400645E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B63D764227B2B5500645E26 /* СhairProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "СhairProtocol.swift"; sourceTree = "<group>"; };
+		0B63D766227B2B8200645E26 /* KitchenChair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenChair.swift; sourceTree = "<group>"; };
+		0B63D76A227B2C4100645E26 /* BedroomChair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedroomChair.swift; sourceTree = "<group>"; };
+		0B63D76D227B2CA600645E26 /* SofaProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SofaProtocol.swift; sourceTree = "<group>"; };
+		0B63D76F227B2CDA00645E26 /* BedroomSofa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedroomSofa.swift; sourceTree = "<group>"; };
+		0B63D771227B2D1300645E26 /* KitchenSofa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenSofa.swift; sourceTree = "<group>"; };
+		0B63D774227B2D5400645E26 /* TableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableProtocol.swift; sourceTree = "<group>"; };
+		0B63D776227B2D8300645E26 /* BedroomTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedroomTable.swift; sourceTree = "<group>"; };
+		0B63D778227B2DBC00645E26 /* KitchenTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenTable.swift; sourceTree = "<group>"; };
+		0B63D77B227B2E5100645E26 /* AbstractFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryProtocol.swift; sourceTree = "<group>"; };
+		0B63D77D227B2E9400645E26 /* BedroomFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedroomFactory.swift; sourceTree = "<group>"; };
+		0B63D77F227B2F2A00645E26 /* KitchenFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,10 @@
 		0B63D750227B28F200645E26 /* AbstractFactory */ = {
 			isa = PBXGroup;
 			children = (
+				0B63D77A227B2E3700645E26 /* Factory */,
+				0B63D773227B2D4100645E26 /* Table */,
+				0B63D76C227B2C8B00645E26 /* Sofa */,
+				0B63D763227B2AF600645E26 /* Сhair */,
 				0B63D751227B28F200645E26 /* AppDelegate.swift */,
 				0B63D753227B28F200645E26 /* ViewController.swift */,
 				0B63D755227B28F200645E26 /* Main.storyboard */,
@@ -62,6 +90,46 @@
 				0B63D75D227B28F400645E26 /* Info.plist */,
 			);
 			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		0B63D763227B2AF600645E26 /* Сhair */ = {
+			isa = PBXGroup;
+			children = (
+				0B63D764227B2B5500645E26 /* СhairProtocol.swift */,
+				0B63D76A227B2C4100645E26 /* BedroomChair.swift */,
+				0B63D766227B2B8200645E26 /* KitchenChair.swift */,
+			);
+			path = "Сhair";
+			sourceTree = "<group>";
+		};
+		0B63D76C227B2C8B00645E26 /* Sofa */ = {
+			isa = PBXGroup;
+			children = (
+				0B63D76D227B2CA600645E26 /* SofaProtocol.swift */,
+				0B63D76F227B2CDA00645E26 /* BedroomSofa.swift */,
+				0B63D771227B2D1300645E26 /* KitchenSofa.swift */,
+			);
+			path = Sofa;
+			sourceTree = "<group>";
+		};
+		0B63D773227B2D4100645E26 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				0B63D774227B2D5400645E26 /* TableProtocol.swift */,
+				0B63D776227B2D8300645E26 /* BedroomTable.swift */,
+				0B63D778227B2DBC00645E26 /* KitchenTable.swift */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		0B63D77A227B2E3700645E26 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				0B63D77B227B2E5100645E26 /* AbstractFactoryProtocol.swift */,
+				0B63D77D227B2E9400645E26 /* BedroomFactory.swift */,
+				0B63D77F227B2F2A00645E26 /* KitchenFactory.swift */,
+			);
+			path = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +203,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B63D775227B2D5400645E26 /* TableProtocol.swift in Sources */,
+				0B63D76E227B2CA600645E26 /* SofaProtocol.swift in Sources */,
+				0B63D77C227B2E5100645E26 /* AbstractFactoryProtocol.swift in Sources */,
+				0B63D76B227B2C4100645E26 /* BedroomChair.swift in Sources */,
+				0B63D77E227B2E9400645E26 /* BedroomFactory.swift in Sources */,
+				0B63D780227B2F2A00645E26 /* KitchenFactory.swift in Sources */,
+				0B63D777227B2D8300645E26 /* BedroomTable.swift in Sources */,
 				0B63D754227B28F200645E26 /* ViewController.swift in Sources */,
+				0B63D772227B2D1300645E26 /* KitchenSofa.swift in Sources */,
+				0B63D779227B2DBC00645E26 /* KitchenTable.swift in Sources */,
+				0B63D770227B2CDA00645E26 /* BedroomSofa.swift in Sources */,
 				0B63D752227B28F200645E26 /* AppDelegate.swift in Sources */,
+				0B63D767227B2B8200645E26 /* KitchenChair.swift in Sources */,
+				0B63D765227B2B5500645E26 /* СhairProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
